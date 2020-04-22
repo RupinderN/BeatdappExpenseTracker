@@ -5,13 +5,13 @@ This web application is an expense tracker that is able to record a user's expen
 
 # Project Screenshots
 
-Expense Tracker in use:
+Expense Tracker:
 
 ![Home Page](https://github.com/RupinderN/BeatdappExpenseTracker/blob/master/public/assets/homepage.PNG)
 
-Video of Application in use:
+Expense Table in Use:
 
-![Video]()
+![Table](https://github.com/RupinderN/BeatdappExpenseTracker/blob/master/public/assets/table.PNG)
 
 
 # Installation and Setup Instructions
