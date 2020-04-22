@@ -1,7 +1,6 @@
 # Expense Tracker | Beatdapp
 
-This web application is an expense tracker that is able to record a user's expenses by entering in the name, cost, and category of the item purchased. It also contains functionality to view your total expenses and delete items of your choice!
-
+This web application is an expense tracker where a user can record their expenses by entering in the name, cost, and category of the item purchased. It also contains functionality to view the total cost and delete items of your choice!
 
 # Project Screenshots
 
