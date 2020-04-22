@@ -31,7 +31,7 @@ function addTotalExpenses() {
     var arrayOfNumbers = totalExpenses.map(Number);
     var sumOfNumbers = arrayOfNumbers.reduce((a, b) => a + b, 0);
     totalSum = sumOfNumbers;
-    $("span").text(totalSum);
+    $("span").text(totalSum.toFixed(2));
     console.log("Total Sum: " + totalSum);
 }
 
