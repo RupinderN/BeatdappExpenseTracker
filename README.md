@@ -7,7 +7,7 @@ This web application is an expense tracker that is able to record a user's expen
 
 Expense Tracker in use:
 
-![Home Page]()
+![Home Page](https://github.com/RupinderN/BeatdappExpenseTracker/blob/master/public/assets/homepage.PNG)
 
 Video of Application in use:
 
