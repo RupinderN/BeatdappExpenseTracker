@@ -18,3 +18,17 @@ function recordInputs() {
     // Clear Input Fields after submission
     $("#my_form")[0].reset();
 }
+
+// ===============================================
+// Remove the ROW when the user deletes an EXPENSE
+// ===============================================
+$(".table tbody").on("click", ".btn", function() {
+    $(this).closest('tr').remove();
+});
+
+// ===================================================================
+// Don't refresh the page on submit, otherwise the expenses will RESET
+// ===================================================================
+$("#my_form").submit(function (e) {
+    e.preventDefault();
+});
