@@ -12,6 +12,12 @@ body {
 .jumbotron { border-radius: 0 !important; }
 #jumbotron-bg { background: none; }
 
+/* BADGE STYLES */
+.badge {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 
 h1.display-4 { font-weight: 600; }
 
