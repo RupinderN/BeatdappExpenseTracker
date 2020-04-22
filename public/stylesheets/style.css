@@ -1,32 +1,30 @@
+/* ======================================== */
+/* APPLY THESE STYLES TO THE ENTIRE WEBPAGE */
+/* ======================================== */
 body {
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to left, #fc6076 0%, #ff9a44 100%);
 }
 
-.jumbotron {
-    border-radius: 0 !important;
-}
+/* ================ */
+/* JUMBOTRON STYLES */
+/* ================ */
+.jumbotron { border-radius: 0 !important; }
+#jumbotron-bg { background: none; }
 
-/* #6c7ae0 */
 
-h1.display-4 {
-    font-weight: 600;
-}
+h1.display-4 { font-weight: 600; }
 
-#jumbotron-bg {
-    background: none;
-}
 
-.btn-dark {
-    background: #232323;
-    color: white;
-    transition: all 0.3s;
-}
+/* ========================= */
+/* CUSTOM DARK BUTTON STYLES */
+/* ========================= */
+.btn-dark { transition: all 0.3s; }
+.btn-dark:hover { transform: scale(1.05); }
 
-.btn-dark:hover {
-    transform: scale(1.05);
-}
-
+/* ================================================== */
+/* STYLES FOR THE TABLE WHERE THE EXPENSES ARE LISTED */
+/* ================================================== */
 table {
     border-collapse: collapse;
     width: 100%;
@@ -34,11 +32,10 @@ table {
     margin: 0 0 10rem 0 !important;
 }
 
-.table_header {
+/* ===================================================== */
+/* DARK BACKGROUND AND WHITE COLOUR FOR TABLE AND FOOTER */
+/* ===================================================== */
+.dark {
     background: #232323;
     color: #e8e8e8;
-}
-
-.footer {
-    background: #232323;
 }
