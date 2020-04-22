@@ -29,8 +29,8 @@
             <div class="jumbotron text-center pb-0" id="jumbotron-bg">
                 <h1 class="display-4">Expense Tracker | Beatdapp</h1>
                 <p>This web application is an expense tracker that is able to record a user's expenses by entering in the name, cost, and category of the item purchased. It also contains functionality to view your total expenses and delete items of your choice!</p>
-                <a href="" class="btn btn-dark">Github</a>
-                <a href="#table" class="btn btn-dark"><i class="fas fa-arrow-down"></i></a>
+                <a href="https://github.com/RupinderN/BeatdappExpenseTracker" target="_blank" class="btn btn-dark dark">Github</a>
+                <a href="#table" class="btn btn-dark dark"><i class="fas fa-arrow-down"></i></a>
             </div>
             <img src="../assets/image.SVG" alt="" class="w-50 mb-5">
         </div>
@@ -41,6 +41,7 @@
         <!-- =============== -->
         <div class="container">
             <div class="text-center my-5">
+                <!-- Run these functions when form submits (SEE script.js) -->
                 <form onsubmit="recordInputs(); addTotalExpenses();" id="my_form">
                     <div class="form-row">
                         <div class="col">
@@ -54,7 +55,7 @@
                             <input type="text" class="form-control" id="category" placeholder="Category of Item" required>
                         </div>
                         <div class="col-auto">
-                            <input type="submit" value="Submit" class="btn btn-dark">
+                            <input type="submit" value="Submit" class="btn btn-dark dark">
                         </div>
                     </div>
                 </form>
@@ -65,7 +66,7 @@
             <!-- ==================================== -->
             <table class="table table-dark" id="table">
                 <thead>
-                    <tr class="table_header">
+                    <tr class="dark">
                         <th scope="col">Name</th>
                         <th scope="col">Cost</th>
                         <th scope="col">Category</th>
@@ -73,7 +74,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- THIS IS WHERE THE APPENDED VALUES WILL GO -->
+                    <!-- THIS IS WHERE THE APPENDED EXPENSES WILL GO -->
                 </tbody>
             </table>
         </div>
@@ -81,7 +82,7 @@
         <!-- ========================================================= -->
         <!-- SHOW TOTAL EXPENSES ON THE BOTTOM OF THE PAGE AS A FOOTER -->
         <!-- ========================================================= -->
-        <nav class="navbar navbar-light footer pt-3 mt-5">
+        <nav class="navbar navbar-light dark pt-3 mt-5">
             <div class="mx-auto">
                 <!-- SHOW THE TOTAL COST -->
                 <h5 class="navbar-brand text-white">Total Expenses: $<span>0</span></h5>
