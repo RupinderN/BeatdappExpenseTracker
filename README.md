@@ -15,13 +15,9 @@ Expense Table in Use:
 
 # Installation and Setup Instructions
 
-Clone down this repository. You will need ```node``` and ```npm``` installed globally on your machine.
+Clone down this repository using ```git clone https://github.com/RupinderN/BeatdappExpenseTracker.git``` in the terminal. You will need ```node``` and ```npm``` installed globally on your machine.
 
-Installation:
-
-```npm install```
-
-Simply run the application with the ```node app.js``` command while in the cloned repository, and open http://localhost:3000 to view it in the browser.
+Change your current directory to the cloned repository, run the application with the ```node app.js``` command in the terminal, and open http://localhost:3000 to view it in the browser.
 
 
 # Built With
